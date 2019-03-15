@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 if (champ.getText().toString().equals(""))
                 { MessageBox("Vide"); }
                 else { MessageBox("Bienvenue " + champ.getText().toString());
-                    setContentView(R.layout.activity2);
+                    setContentView(R.layout.activity_main2);
                 }
             }
         });
